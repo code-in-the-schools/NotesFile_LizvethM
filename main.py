@@ -10,3 +10,30 @@ def my_functions(x,y,z):
   c= 0
   c= (x+y)*z
   return c
+
+#removes as from names
+def myName(name):
+  newName==""
+  for i in range(len(name)):
+    if name [i] != letter.lower and name != letter.upper:
+      newName+=name[i]
+    return newName
+
+
+#Adds user number plus 1/2
+def addOne():
+  return(i+1)
+def addTwo():
+  return(i+2)
+
+a= int(input("number: "))
+b= addOne(a)+addTwo(a)
+print(addOne(a))
+print(addTwo(a))
+print("B: ",b)
+print(myName(n))
+
+#
+running =true
+while running:
+  n= str(input("Name: "))
